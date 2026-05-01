@@ -1,0 +1,5 @@
+sampler=optuna.samplers.TPESampler()
+)
+study.optimize(train_and_evaluate, n_trials=30)
+print("Best trial:")
+print(study.best_trial.params)

@@ -1,0 +1,23 @@
+# Common libraries referenced by extracted chapter code
+numpy
+torch
+torchvision
+transformers
+matplotlib
+Pillow
+opencv-python
+pandas
+requests
+scikit-image
+scikit-learn
+pydicom
+streamlit
+ultralytics
+datasets
+peft
+trl
+onnx
+onnxruntime
+onnxoptimizer
+vllm
+nltk

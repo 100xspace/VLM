@@ -1,0 +1,4 @@
+To convert floating point values into integers, we apply a scaling transformation. Symmetric quantization uses a single scale around zero, while asymmetric quantization introduces a scale and zero point to handle uneven value distributions. The simplified example as follows illustrates this core mapping in PyTorch: To build intuition, consider a simple example. A floating-point value of 0.75 in the range [-1, 1] can be mapped to INT8 by scaling it to the integer range [-127, 127]. Using a scale of approximately 127, the value becomes round(0.75 × 127) ≈ 95. During dequantization, this integer is mapped back using the same scale, recovering an approximate floating-point value close to 0.75. This illustrates how continuous values are discretized while preserving relative magnitude.
+import torch, numpy as np
+def quantize_tensor(tensor, num_bits=8, symmetric=True):
+    """

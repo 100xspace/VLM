@@ -1,0 +1,1 @@
+DICOM to PNG Conversion: The RSNA dataset is DICOM heavy. The pydicom library can be used for reading and converting images using commands such as import pydicom, ds = pydicom.dcmread(path), and img = ds.pixel_array.astype(float). This conversion process is introduced in more detail in Section 6.2.

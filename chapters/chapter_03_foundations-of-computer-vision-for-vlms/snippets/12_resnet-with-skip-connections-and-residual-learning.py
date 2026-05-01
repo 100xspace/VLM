@@ -1,0 +1,1 @@
+When training a neural network, the goal is to make it replicate a target function h(x). By adding the input x to the output of the network (a skip connection), the network is made to model f(x) = h(x) - x, a technique known as residual learning.

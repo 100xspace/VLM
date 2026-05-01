@@ -1,0 +1,1012 @@
+[
+  {
+    "chapter_number": 1,
+    "chapter_title": "Introduction to Vision Language Models",
+    "source_docx": "Chapter_1_2734_01_accepted_Shiva.docx",
+    "code_files": [],
+    "dependencies": []
+  },
+  {
+    "chapter_number": 2,
+    "chapter_title": "Deep Learning and Attention Mechanisms",
+    "source_docx": "Chapter_2_2734_02_accepted_Shiva.docx",
+    "code_files": [
+      {
+        "heading": "Neural network fundamentals refresher",
+        "path": "snippets/01_neural-network-fundamentals-refresher.py",
+        "line_count": 4,
+        "source_docx": "Chapter_2_2734_02_accepted_Shiva.docx"
+      },
+      {
+        "heading": "RNNs",
+        "path": "snippets/02_rnns.py",
+        "line_count": 6,
+        "source_docx": "Chapter_2_2734_02_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Understanding ViT involves time and space complexity",
+        "path": "snippets/03_understanding-vit-involves-time-and-space-complexi.py",
+        "line_count": 5,
+        "source_docx": "Chapter_2_2734_02_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Tuning learning pace through learning rate scheduling",
+        "path": "snippets/04_tuning-learning-pace-through-learning-rate-schedul.py",
+        "line_count": 9,
+        "source_docx": "Chapter_2_2734_02_accepted_Shiva.docx"
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "chapter_number": 3,
+    "chapter_title": "Foundations Of Computer Vision For VLMs",
+    "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx",
+    "code_files": [
+      {
+        "heading": "Digital image fundamentals",
+        "path": "snippets/01_digital-image-fundamentals.py",
+        "line_count": 1,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Digital image fundamentals",
+        "path": "snippets/02_digital-image-fundamentals.py",
+        "line_count": 11,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "\u200b\u200bTraditional feature extraction",
+        "path": "snippets/03_traditional-feature-extraction.py",
+        "line_count": 15,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "\u200b\u200bTraditional feature extraction",
+        "path": "snippets/04_traditional-feature-extraction.py",
+        "line_count": 17,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "SURF descriptor construction",
+        "path": "snippets/05_surf-descriptor-construction.py",
+        "line_count": 10,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Histogram of oriented gradients",
+        "path": "snippets/06_histogram-of-oriented-gradients.py",
+        "line_count": 18,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Sobel edge detection",
+        "path": "snippets/07_sobel-edge-detection.py",
+        "line_count": 12,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Convolutional neural networks and deep learning revolution",
+        "path": "snippets/08_convolutional-neural-networks-and-deep-learning-re.py",
+        "line_count": 9,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Mathematical foundation",
+        "path": "snippets/09_mathematical-foundation.py",
+        "line_count": 30,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Multi-channel convolution",
+        "path": "snippets/10_multi-channel-convolution.py",
+        "line_count": 19,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Pooling layers for spatial downsampling and invariance",
+        "path": "snippets/11_pooling-layers-for-spatial-downsampling-and-invari.py",
+        "line_count": 22,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "ResNet with skip connections and residual learning",
+        "path": "snippets/12_resnet-with-skip-connections-and-residual-learning.py",
+        "line_count": 1,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Feature extraction with pre-trained CNNs",
+        "path": "snippets/13_feature-extraction-with-pre-trained-cnns.py",
+        "line_count": 3,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Feature extraction with pre-trained CNNs",
+        "path": "snippets/14_feature-extraction-with-pre-trained-cnns.py",
+        "line_count": 4,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Feature extraction with pre-trained CNNs",
+        "path": "snippets/15_feature-extraction-with-pre-trained-cnns.py",
+        "line_count": 2,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Feature extraction with pre-trained CNNs",
+        "path": "snippets/16_feature-extraction-with-pre-trained-cnns.py",
+        "line_count": 3,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "ViT Implementation",
+        "path": "snippets/17_vit-implementation.py",
+        "line_count": 3,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "ViT Implementation",
+        "path": "snippets/18_vit-implementation.py",
+        "line_count": 2,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "ViT Implementation",
+        "path": "snippets/19_vit-implementation.py",
+        "line_count": 4,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Multimodal feature integration",
+        "path": "snippets/20_multimodal-feature-integration.py",
+        "line_count": 18,
+        "source_docx": "Chapter_3_2734_03_accepted_Shiva.docx"
+      }
+    ],
+    "dependencies": [
+      "Pillow",
+      "matplotlib",
+      "numpy",
+      "opencv-python",
+      "scikit-image",
+      "torch",
+      "transformers"
+    ]
+  },
+  {
+    "chapter_number": 4,
+    "chapter_title": "Architecture of Vision-Language Models",
+    "source_docx": "Chapter_4_2734_04_re-reviewed_VS.docx",
+    "code_files": [
+      {
+        "heading": "Mathematical foundation",
+        "path": "snippets/01_mathematical-foundation.py",
+        "line_count": 1,
+        "source_docx": "Chapter_4_2734_04_re-reviewed_VS.docx"
+      },
+      {
+        "heading": "CLIP implementation",
+        "path": "snippets/02_clip-implementation.py",
+        "line_count": 9,
+        "source_docx": "Chapter_4_2734_04_re-reviewed_VS.docx"
+      },
+      {
+        "heading": "CLIP implementation",
+        "path": "snippets/03_clip-implementation.py",
+        "line_count": 9,
+        "source_docx": "Chapter_4_2734_04_re-reviewed_VS.docx"
+      },
+      {
+        "heading": "CLIP implementation",
+        "path": "snippets/04_clip-implementation.py",
+        "line_count": 8,
+        "source_docx": "Chapter_4_2734_04_re-reviewed_VS.docx"
+      },
+      {
+        "heading": "LLaVA implementation",
+        "path": "snippets/05_llava-implementation.py",
+        "line_count": 11,
+        "source_docx": "Chapter_4_2734_04_re-reviewed_VS.docx"
+      },
+      {
+        "heading": "LLaVA implementation",
+        "path": "snippets/06_llava-implementation.py",
+        "line_count": 5,
+        "source_docx": "Chapter_4_2734_04_re-reviewed_VS.docx"
+      },
+      {
+        "heading": "LLaVA implementation",
+        "path": "snippets/07_llava-implementation.py",
+        "line_count": 2,
+        "source_docx": "Chapter_4_2734_04_re-reviewed_VS.docx"
+      }
+    ],
+    "dependencies": [
+      "Pillow",
+      "matplotlib",
+      "numpy",
+      "seaborn",
+      "torch",
+      "transformers"
+    ]
+  },
+  {
+    "chapter_number": 5,
+    "chapter_title": "Dataset Designs, Evaluation Metrics and Benchmarks for VLMs",
+    "source_docx": "chapter_5_2734_05_accepted_VS.docx",
+    "code_files": [],
+    "dependencies": []
+  },
+  {
+    "chapter_number": 6,
+    "chapter_title": "Pneumonia Detection from Chest X-Rays",
+    "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx",
+    "code_files": [
+      {
+        "heading": "Acquiring the RSNA dataset",
+        "path": "snippets/01_acquiring-the-rsna-dataset.py",
+        "line_count": 3,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Acquiring the RSNA dataset",
+        "path": "snippets/02_acquiring-the-rsna-dataset.py",
+        "line_count": 6,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Acquiring the RSNA dataset",
+        "path": "snippets/03_acquiring-the-rsna-dataset.py",
+        "line_count": 1,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Creating Train/Validation/Test splits",
+        "path": "snippets/04_creating-train-validation-test-splits.py",
+        "line_count": 1,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Transformation pipeline implementation",
+        "path": "snippets/05_transformation-pipeline-implementation.py",
+        "line_count": 21,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "The dataset loader",
+        "path": "snippets/06_the-dataset-loader.py",
+        "line_count": 21,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Handling DICOM files in clinical imaging pipelines",
+        "path": "snippets/07_handling-dicom-files-in-clinical-imaging-pipelines.py",
+        "line_count": 9,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Loading and pre-processing DICOM files",
+        "path": "snippets/08_loading-and-pre-processing-dicom-files.py",
+        "line_count": 52,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Model implementation in PyTorch",
+        "path": "snippets/09_model-implementation-in-pytorch.py",
+        "line_count": 25,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Training loop implementation",
+        "path": "snippets/10_training-loop-implementation.py",
+        "line_count": 28,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Evaluation function and metrics at a glance",
+        "path": "snippets/11_evaluation-function-and-metrics-at-a-glance.py",
+        "line_count": 8,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Evaluation function and metrics at a glance",
+        "path": "snippets/12_evaluation-function-and-metrics-at-a-glance.py",
+        "line_count": 5,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Evaluation function and metrics at a glance",
+        "path": "snippets/13_evaluation-function-and-metrics-at-a-glance.py",
+        "line_count": 47,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Stratified K fold cross validation",
+        "path": "snippets/14_stratified-k-fold-cross-validation.py",
+        "line_count": 1,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Stratified K fold cross validation",
+        "path": "snippets/15_stratified-k-fold-cross-validation.py",
+        "line_count": 23,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "This function converts a single X-ray into a probability score using only natural language prompts and learned image-text alignment. In practice, these zero-shot probabilities are often less well-calibrated than those produced by supervised specialist models, and should be interpreted with caution in clinical settings.",
+        "path": "snippets/16_this-function-converts-a-single-x-ray-into-a-proba.py",
+        "line_count": 33,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Implementing Grad CAM for explainability",
+        "path": "snippets/17_implementing-grad-cam-for-explainability.py",
+        "line_count": 41,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Visualizing the heatmap",
+        "path": "snippets/18_visualizing-the-heatmap.py",
+        "line_count": 13,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Architecture of the clinical interface",
+        "path": "snippets/19_architecture-of-the-clinical-interface.py",
+        "line_count": 25,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Architecture of the clinical interface",
+        "path": "snippets/20_architecture-of-the-clinical-interface.py",
+        "line_count": 12,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Architecture of the clinical interface",
+        "path": "snippets/21_architecture-of-the-clinical-interface.py",
+        "line_count": 47,
+        "source_docx": "Chapter_6_2734_06_accepted_Shiva.docx"
+      }
+    ],
+    "dependencies": [
+      "Pillow",
+      "matplotlib",
+      "numpy",
+      "opencv-python",
+      "pandas",
+      "pydicom",
+      "scikit-learn",
+      "streamlit",
+      "torch",
+      "torchvision",
+      "transformers"
+    ]
+  },
+  {
+    "chapter_number": 7,
+    "chapter_title": "Object Detection and Classification with Bounding Boxes",
+    "source_docx": "Chapter_7_2734_07_accepted_VS_AG.docx",
+    "code_files": [
+      {
+        "heading": "Example Python pipeline",
+        "path": "snippets/01_example-python-pipeline.py",
+        "line_count": 30,
+        "source_docx": "Chapter_7_2734_07_accepted_VS_AG.docx"
+      }
+    ],
+    "dependencies": [
+      "opencv-python",
+      "ultralytics"
+    ]
+  },
+  {
+    "chapter_number": 8,
+    "chapter_title": "Real World Project 3 Wind Turbine Blade Damage Detection",
+    "source_docx": "Chapter_8_2734_08_reviewed_VS.docx",
+    "code_files": [
+      {
+        "heading": "Defect classes",
+        "path": "src/download_data.py",
+        "line_count": 11,
+        "source_docx": "Chapter_8_2734_08_reviewed_VS.docx"
+      },
+      {
+        "heading": "Defect classes",
+        "path": "src/prepare_data.py",
+        "line_count": 14,
+        "source_docx": "Chapter_8_2734_08_reviewed_VS.docx"
+      },
+      {
+        "heading": "Defect classes",
+        "path": "data-formatting.py",
+        "line_count": 9,
+        "source_docx": "Chapter_8_2734_08_reviewed_VS.docx"
+      },
+      {
+        "heading": "YOLO model training",
+        "path": "src/train.py",
+        "line_count": 11,
+        "source_docx": "Chapter_8_2734_08_reviewed_VS.docx"
+      },
+      {
+        "heading": "DETR Fine-tuning",
+        "path": "detr-finetune.py",
+        "line_count": 5,
+        "source_docx": "Chapter_8_2734_08_reviewed_VS.docx"
+      },
+      {
+        "heading": "Inference with triton and SAHI",
+        "path": "triton_sahi_inf.py",
+        "line_count": 15,
+        "source_docx": "Chapter_8_2734_08_reviewed_VS.docx"
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "chapter_number": 9,
+    "chapter_title": "Efficient Tuning, Transfer Learning, Alignment and Optimization",
+    "source_docx": "Chapter_9_2734_09_revised_VS.docx",
+    "code_files": [
+      {
+        "heading": "Advanced PEFT methods including LoRA, QLoRA, and DoRA",
+        "path": "snippets/01_advanced-peft-methods-including-lora-qlora-and-dor.py",
+        "line_count": 1,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Advanced PEFT methods including LoRA, QLoRA, and DoRA",
+        "path": "snippets/02_advanced-peft-methods-including-lora-qlora-and-dor.py",
+        "line_count": 5,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Advanced PEFT methods including LoRA, QLoRA, and DoRA",
+        "path": "snippets/03_advanced-peft-methods-including-lora-qlora-and-dor.py",
+        "line_count": 4,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "LoRA enables efficient model adaptation",
+        "path": "snippets/04_lora-enables-efficient-model-adaptation.py",
+        "line_count": 15,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "DoRA improves stability and convergence in model adaptation",
+        "path": "snippets/05_dora-improves-stability-and-convergence-in-model-a.py",
+        "line_count": 18,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Practical guidance for using DoRA in VLMs",
+        "path": "snippets/06_practical-guidance-for-using-dora-in-vlms.py",
+        "line_count": 8,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Token merging for reducing visual redundancy",
+        "path": "snippets/07_token-merging-for-reducing-visual-redundancy.py",
+        "line_count": 24,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Pruning strategies for eliminating unnecessary visual tokens",
+        "path": "snippets/08_pruning-strategies-for-eliminating-unnecessary-vis.py",
+        "line_count": 7,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Attention-based token pruning in FastV",
+        "path": "snippets/09_attention-based-token-pruning-in-fastv.py",
+        "line_count": 13,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Entropy-based visual redundancy detection",
+        "path": "snippets/10_entropy-based-visual-redundancy-detection.py",
+        "line_count": 7,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Semantic-aware pruning function",
+        "path": "snippets/11_semantic-aware-pruning-function.py",
+        "line_count": 12,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Semantic-aware pruning function",
+        "path": "snippets/12_semantic-aware-pruning-function.py",
+        "line_count": 15,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Dynamic grid splitter",
+        "path": "snippets/13_dynamic-grid-splitter.py",
+        "line_count": 15,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Image encoding with separator token",
+        "path": "snippets/14_image-encoding-with-separator-token.py",
+        "line_count": 7,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Sequence packing",
+        "path": "snippets/15_sequence-packing.py",
+        "line_count": 11,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Alignment techniques using DPO to reduce hallucinations",
+        "path": "snippets/16_alignment-techniques-using-dpo-to-reduce-hallucina.py",
+        "line_count": 9,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Limitation of SFT",
+        "path": "snippets/17_limitation-of-sft.py",
+        "line_count": 4,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Direct preference optimization as the practical shift",
+        "path": "snippets/18_direct-preference-optimization-as-the-practical-sh.py",
+        "line_count": 6,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Core loss in DPO",
+        "path": "snippets/19_core-loss-in-dpo.py",
+        "line_count": 8,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Hard negatives as the critical dataset ingredient",
+        "path": "snippets/20_hard-negatives-as-the-critical-dataset-ingredient.py",
+        "line_count": 1,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Constructing the dataset using the hallucination doctor strategy",
+        "path": "snippets/21_constructing-the-dataset-using-the-hallucination-d.py",
+        "line_count": 11,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Constructing the dataset using the hallucination doctor strategy",
+        "path": "snippets/22_constructing-the-dataset-using-the-hallucination-d.py",
+        "line_count": 2,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Constructing the dataset using the hallucination doctor strategy",
+        "path": "snippets/23_constructing-the-dataset-using-the-hallucination-d.py",
+        "line_count": 8,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Constructing the dataset using the hallucination doctor strategy",
+        "path": "snippets/24_constructing-the-dataset-using-the-hallucination-d.py",
+        "line_count": 10,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Implementing DPO training using DPOTrainer",
+        "path": "snippets/25_implementing-dpo-training-using-dpotrainer.py",
+        "line_count": 27,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Beta as the alignment control knob",
+        "path": "snippets/26_beta-as-the-alignment-control-knob.py",
+        "line_count": 21,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Evaluating hallucinations beyond accuracy",
+        "path": "snippets/27_evaluating-hallucinations-beyond-accuracy.py",
+        "line_count": 8,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Evaluating hallucinations beyond accuracy",
+        "path": "snippets/28_evaluating-hallucinations-beyond-accuracy.py",
+        "line_count": 7,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Optuna trial training function",
+        "path": "snippets/29_optuna-trial-training-function.py",
+        "line_count": 2,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Optuna trial training function",
+        "path": "snippets/30_optuna-trial-training-function.py",
+        "line_count": 34,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Critical hyperparameters for VLMs",
+        "path": "snippets/31_critical-hyperparameters-for-vlms.py",
+        "line_count": 5,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "LLM-as-a-judge standard",
+        "path": "snippets/32_llm-as-a-judge-standard.py",
+        "line_count": 9,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "LLM-as-a-judge standard",
+        "path": "snippets/33_llm-as-a-judge-standard.py",
+        "line_count": 12,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      },
+      {
+        "heading": "Benchmarks that matter in modern practice",
+        "path": "snippets/34_benchmarks-that-matter-in-modern-practice.py",
+        "line_count": 22,
+        "source_docx": "Chapter_9_2734_09_revised_VS.docx"
+      }
+    ],
+    "dependencies": [
+      "Pillow",
+      "datasets",
+      "peft",
+      "torch",
+      "torchvision",
+      "transformers",
+      "trl"
+    ]
+  },
+  {
+    "chapter_number": 10,
+    "chapter_title": "Quantization, Distillation and Efficient Inference",
+    "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx",
+    "code_files": [
+      {
+        "heading": "Quantization mapping",
+        "path": "snippets/01_quantization-mapping.py",
+        "line_count": 4,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Quantization mapping",
+        "path": "snippets/02_quantization-mapping.py",
+        "line_count": 3,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Quantization mapping",
+        "path": "snippets/03_quantization-mapping.py",
+        "line_count": 14,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Quantization mapping",
+        "path": "snippets/04_quantization-mapping.py",
+        "line_count": 11,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Per-tensor vs. per-channel quantization",
+        "path": "snippets/05_per-tensor-vs-per-channel-quantization.py",
+        "line_count": 2,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Per-tensor vs. per-channel quantization",
+        "path": "snippets/06_per-tensor-vs-per-channel-quantization.py",
+        "line_count": 1,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Per-tensor vs. per-channel quantization",
+        "path": "snippets/07_per-tensor-vs-per-channel-quantization.py",
+        "line_count": 13,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Group-wise quantization",
+        "path": "snippets/08_group-wise-quantization.py",
+        "line_count": 2,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Group-wise quantization",
+        "path": "snippets/09_group-wise-quantization.py",
+        "line_count": 6,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Group-wise quantization",
+        "path": "snippets/10_group-wise-quantization.py",
+        "line_count": 13,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Post-Training Quantization",
+        "path": "snippets/11_post-training-quantization.py",
+        "line_count": 5,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Post-Training Quantization",
+        "path": "snippets/12_post-training-quantization.py",
+        "line_count": 3,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Post-Training Quantization",
+        "path": "snippets/13_post-training-quantization.py",
+        "line_count": 11,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Post-Training Quantization",
+        "path": "snippets/14_post-training-quantization.py",
+        "line_count": 35,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "PTQ calibration strategies",
+        "path": "snippets/15_ptq-calibration-strategies.py",
+        "line_count": 12,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "PTQ calibration strategies",
+        "path": "snippets/16_ptq-calibration-strategies.py",
+        "line_count": 31,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Quantization-aware training",
+        "path": "snippets/17_quantization-aware-training.py",
+        "line_count": 8,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Quantization-aware training",
+        "path": "snippets/18_quantization-aware-training.py",
+        "line_count": 54,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Practical quantization for VLMs",
+        "path": "snippets/19_practical-quantization-for-vlms.py",
+        "line_count": 3,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Practical quantization for VLMs",
+        "path": "snippets/20_practical-quantization-for-vlms.py",
+        "line_count": 46,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Temperature scaling",
+        "path": "snippets/21_temperature-scaling.py",
+        "line_count": 5,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Temperature scaling",
+        "path": "snippets/22_temperature-scaling.py",
+        "line_count": 20,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Temperature scaling",
+        "path": "snippets/23_temperature-scaling.py",
+        "line_count": 55,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Temperature scaling",
+        "path": "snippets/24_temperature-scaling.py",
+        "line_count": 9,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Temperature scaling",
+        "path": "snippets/25_temperature-scaling.py",
+        "line_count": 19,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Temperature scaling",
+        "path": "snippets/26_temperature-scaling.py",
+        "line_count": 6,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Temperature scaling",
+        "path": "snippets/27_temperature-scaling.py",
+        "line_count": 23,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Key-value cache optimization",
+        "path": "snippets/28_key-value-cache-optimization.py",
+        "line_count": 5,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Key-value cache optimization",
+        "path": "snippets/29_key-value-cache-optimization.py",
+        "line_count": 12,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Key-value cache optimization",
+        "path": "snippets/30_key-value-cache-optimization.py",
+        "line_count": 39,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Dynamic batching and continuous batching",
+        "path": "snippets/31_dynamic-batching-and-continuous-batching.py",
+        "line_count": 4,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Dynamic batching and continuous batching",
+        "path": "snippets/32_dynamic-batching-and-continuous-batching.py",
+        "line_count": 21,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Dynamic batching and continuous batching",
+        "path": "snippets/33_dynamic-batching-and-continuous-batching.py",
+        "line_count": 26,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Flash attention",
+        "path": "snippets/34_flash-attention.py",
+        "line_count": 35,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Speculative decoding",
+        "path": "snippets/35_speculative-decoding.py",
+        "line_count": 13,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Speculative decoding",
+        "path": "snippets/36_speculative-decoding.py",
+        "line_count": 22,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Speculative decoding",
+        "path": "snippets/37_speculative-decoding.py",
+        "line_count": 2,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Operator fusion",
+        "path": "snippets/38_operator-fusion.py",
+        "line_count": 17,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "ONNX",
+        "path": "snippets/39_onnx.py",
+        "line_count": 6,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "ONNX",
+        "path": "snippets/40_onnx.py",
+        "line_count": 12,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "ONNX",
+        "path": "snippets/41_onnx.py",
+        "line_count": 12,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "ONNX",
+        "path": "snippets/42_onnx.py",
+        "line_count": 20,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "TensorRT",
+        "path": "snippets/43_tensorrt.py",
+        "line_count": 4,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "TensorRT",
+        "path": "snippets/44_tensorrt.py",
+        "line_count": 63,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "vLLM",
+        "path": "snippets/45_vllm.py",
+        "line_count": 3,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "vLLM",
+        "path": "snippets/46_vllm.py",
+        "line_count": 18,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Hands-on captioning model quantizing and optimizing lab",
+        "path": "snippets/47_hands-on-captioning-model-quantizing-and-optimizin.py",
+        "line_count": 12,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Hands-on captioning model quantizing and optimizing lab",
+        "path": "snippets/48_hands-on-captioning-model-quantizing-and-optimizin.py",
+        "line_count": 28,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Hands-on captioning model quantizing and optimizing lab",
+        "path": "snippets/49_hands-on-captioning-model-quantizing-and-optimizin.py",
+        "line_count": 19,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Hands-on captioning model quantizing and optimizing lab",
+        "path": "snippets/50_hands-on-captioning-model-quantizing-and-optimizin.py",
+        "line_count": 23,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Measuring the drop",
+        "path": "snippets/51_measuring-the-drop.py",
+        "line_count": 3,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      },
+      {
+        "heading": "Measuring the drop",
+        "path": "snippets/52_measuring-the-drop.py",
+        "line_count": 15,
+        "source_docx": "Chapter_10_2734_10_accepted_Shiva.docx"
+      }
+    ],
+    "dependencies": [
+      "Pillow",
+      "flash-attn",
+      "nltk",
+      "onnx",
+      "onnxoptimizer",
+      "onnxruntime",
+      "torch",
+      "transformers",
+      "vllm"
+    ]
+  },
+  {
+    "chapter_number": 11,
+    "chapter_title": "Vision Language Applications across Domains",
+    "source_docx": "Chapter_11_2734_11_reviewed_Shiva.docx",
+    "code_files": [],
+    "dependencies": []
+  },
+  {
+    "chapter_number": 12,
+    "chapter_title": "Challenges, Ethics and Road Ahead",
+    "source_docx": "Chapter_12_2734_12_accepted_Shiva.docx",
+    "code_files": [],
+    "dependencies": []
+  }
+]
